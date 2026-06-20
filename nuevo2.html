@@ -1,0 +1,124 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor ❤️</title>
+
+```
+<style>
+    body{
+        font-family: Arial, sans-serif;
+        background: linear-gradient(pink, #ff66b2);
+        text-align: center;
+        color: white;
+        margin: 0;
+    }
+
+    header{
+        padding: 30px;
+    }
+
+    h1{
+        font-size: 50px;
+    }
+
+    .btn{
+        background: white;
+        color: #ff1493;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 25px;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .btn:hover{
+        background: #ffe6f2;
+    }
+
+    .galeria img{
+        width: 250px;
+        height: 180px;
+        margin: 10px;
+        border-radius: 15px;
+        box-shadow: 0 0 10px white;
+    }
+
+    .mensaje{
+        display: none;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    footer{
+        margin-top: 30px;
+        padding: 20px;
+        background: rgba(0,0,0,0.2);
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+<header>
+    <h1>❤️ TE AMO ❤️</h1>
+    <h2>Para la persona más especial de mi vida</h2>
+
+<button class="btn" onclick="mostrarMensaje()">
+    Haz clic aquí ❤️
+</button>
+
+<p id="mensaje" class="mensaje">
+    Eres la razón de muchas de mis sonrisas. Te amo muchísimo ❤️🥰
+</p>
+
+</header>
+
+<section>
+    <h2>Nuestra Galería 📸</h2>
+GRACIAS POR SIEMPRE SACARME UNA SONRISA
+<div class="galeria">
+    <img src="foto1.jpeg" alt="Foto 1">
+    <img src="foto2.jpeg" alt="Foto 2">
+    <img src="foto3.jpeg" alt="Foto 3">
+</div>
+
+</section>
+
+<section>
+    <h2>Razones por las que te amo ❤️</h2>
+
+<ul style="list-style:none; font-size:22px;">
+    <li>💖 Tu hermosa sonrisa</li>
+    <li>💖 Tu forma de ser</li>
+    <li>💖 Porque siempre estás conmigo</li>
+    <li>💖 Porque haces mi vida mejor</li>
+    <li>💖 Porque eres única</li>
+</ul>
+
+</section>
+
+<section>
+    <button class="btn" onclick="sorpresa()">
+        Sorpresa 🎁
+    </button>
+</section>
+
+<footer>
+    <h3>Te amo hoy, mañana y siempre ❤️</h3>
+</footer>
+
+<script>
+function mostrarMensaje(){
+    document.getElementById("mensaje").style.display = "block";
+}
+
+function sorpresa(){
+    alert("❤️ Eres el amor de mi vida ❤️");
+}
+</script>
+
+</body>
+</html>
